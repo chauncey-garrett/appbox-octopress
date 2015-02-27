@@ -56,7 +56,7 @@ Make sure that you use it without the string ```id```.
 
 ### How to get the APPID from Google PlayStore
 
-When you open or search an app on Goole PlayStore like
+When you open or search an app on Google PlayStore like
 
 ```
 https://play.google.com/store/apps/details?id=com.twitter.android
