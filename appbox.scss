@@ -1,0 +1,141 @@
+.star {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAKCAQAAADI+WwIAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAJiS0dEAP+Hj8y/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAACXZwQWcAAAALAAAACgCF+qVAAAAAhUlEQVQI103NMQqCABgF4C+Fxg7QHDQ0JkFnaKqlKJBu4Np9hEDoBq2doCYP0B4UBKLYUKZvex+P/+9N/dJ3FXl9S9CopbF9U1pOkAgb3irVanOMlGqldeBoo9CmspMFOFmp/hzLmtuXzvrWvpwJFVJvLLqci8Qmzl8OhzBwcMdD6ilXfwAd9B9f78yTCQAAAABJRU5ErkJggg==) no-repeat;
+  background-size: 11px 10px;
+}
+
+.unstar {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAKCAQAAADI+WwIAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAJiS0dEAP+Hj8y/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAACXZwQWcAAAALAAAACgCF+qVAAAAAo0lEQVQI1z2NMQrCQBRE32YxGFDwBGJnYZkll0ilpDISLO28k4lFwN7CTsTKSisbK8ELCJFI/BZJdn41j/kzSqiVuZ3r1yzeAAanoajpcOwsW2dxf+0yWGe6CaVzNmgY4VHyQKAiVsIlUlvc9otK4lXugNnJjKqlkpi86X6exIZfNztZBGhKUgr4hBZ3A3UX4ye/CYdeWHch7MOzJ9R3jFLt8we7izGyoi32iQAAAABJRU5ErkJggg==) no-repeat;
+  background-size: 11px 10px;
+}
+
+.half-star {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAKCAQAAADI+WwIAAAAAmJLR0QA/4ePzL8AAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAJdnBBZwAAAAsAAAAKAIX6pUAAAACTSURBVAjXTY0xCsJAEEVfdiEgpPAWFpYTvMRWSioDwdIuh7GydbEIeAM7sU1lo42tR1CEdSzMJk4178H/H7qTVK4+A0URTNTMmZhVhEHXMK69/UEiS3Z0sOGOQqBMQAr2pABbgKDlujHQHlgQYpdWeRO7z/0Cj8swOcPyxvOEl/vXN/K2+kw5Zq4PipNR/E+Ft8IX7yMjsFUGo0cAAAAcdEVYdFNvZnR3YXJlAEFkb2JlIEZpcmV3b3JrcyBDUzVxteM2AAAAAElFTkSuQmCC) no-repeat;
+  background-size: 11px 10px;
+}
+
+.rating {
+  background-size: 11px 10px;
+  display: inline-block;
+  height: 10px;
+  width: 11px;
+}
+
+.appicon {
+  border-radius: 5px;
+  float: left;
+  height: 64px;
+  margin: 10px !important;
+  width: 64px;
+}
+
+.appbox {
+  background-color: $snow;
+  border: 1px solid $silver;
+  clear: both;
+  color: $charcoal;
+  font-family: $font-family-sans-serif;
+  font-size: 1em/16px;
+  line-height: 1;
+  margin: 16px 0;
+  width: auto;
+}
+
+.appdetails {
+  font-size: .95em;
+  height: 64px;
+  margin: 10px;
+}
+
+.apptitle {
+  font-size: 1.15em;
+  font-weight: bold;
+  height: 22px;
+  margin: 0;
+  padding: 0;
+
+  a {
+    color: $black !important;
+  }
+
+  a:hover {
+    text-decoration: none !important;
+    color: $base !important;
+  }
+
+}
+
+.developer {
+  height: 21px;
+  line-height: 21px;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+}
+
+.price {
+  display: table-cell;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+  vertical-align: bottom;
+}
+
+.screenshots {
+  margin: 0 auto;
+  padding: 10px;
+  width: auto;
+}
+
+.screenshots
+.slider {
+  height: 300px;
+  margin-top: 0;
+  overflow-x: scroll;
+  overflow-y: hidden;
+
+  ul {
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style-image: none;
+    white-space: nowrap;
+
+    li {
+      display: inline;
+      list-style-type: none;
+      margin: 0;
+      margin-right: 6px;
+      padding: 0;
+
+      img {
+        display: inline;
+        height: 300px !important;
+      }
+
+    }
+
+    li:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.appbutton {
+  background-color: $silver;
+  border: 1px solid $silver;
+  border-radius: 5px;
+  display: inline-block;
+  float: right;
+  font-size: .95em;
+  font-weight: bold;
+  height: 44px;
+  line-height: 1.6em;
+  margin: 10px;
+  padding: 10px 15px;
+  text-align: center;
+}
+
+.appbutton:hover {
+  background-color: $iron;
+  color: $white;
+  text-decoration: none !important;
+}
